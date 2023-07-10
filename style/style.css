@@ -365,3 +365,65 @@ footer {
   font-size: 16px;
   font-weight: 400;
 }
+
+.hotSale-description {
+  display: flex;
+  height: 620px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  background: linear-gradient(
+    to left,
+    rgba(219, 114, 137, 0.2),
+    rgba(86, 191, 240, 0.2)
+  );
+}
+
+.hotSale-description .image,
+.hotSale-description .details {
+  width: 50%;
+  /* background-color: red; */
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hotSale-description .details-div h2 {
+  color: #272727;
+  width: 537px;
+  height: 48px;
+  font-size: 40px;
+  font-weight: 800;
+}
+.hotSale-description .details-div p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  width: 594px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 20px;
+}
+.hotSale-description .details-div button {
+  padding: 20px 43px;
+  border-radius: 8px;
+  background-color: #e55473;
+  width: 220px;
+  height: 64px;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.hotSale-description .details-div #all-flower {
+  padding: 20px 43px;
+  border-radius: 8px;
+  background-color: #1a5e7e;
+  width: 250px;
+  height: 64px;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 20px;
+}
