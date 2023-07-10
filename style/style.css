@@ -132,3 +132,34 @@ body {
   justify-content: space-around;
   align-items: center;
 }
+
+.flower-delivary-info {
+  height: 320px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+}
+.flower-delivary-info .image-group {
+  /* background-color: red; */
+  /* border: 1px solid black; */
+  width: 32%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.flower-delivary-info .image-group p {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 35px;
+}
+
+.flower-delivary-info .image-group img {
+  width: 88px;
+  height: 88px;
+  margin: 0 auto;
+}
