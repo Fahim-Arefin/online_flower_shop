@@ -163,3 +163,67 @@ body {
   height: 88px;
   margin: 0 auto;
 }
+
+.hotSale {
+  height: 620px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  display: flex;
+}
+
+.hotSale .details {
+  width: 50%;
+  /* background-color: red; */
+  /* border: 1px solid black; */
+  padding: 11% 0% 10% 16%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hotSale .details span {
+  color: #e55473;
+}
+
+.hotSale .details h2 {
+  color: #272727;
+  width: 537px;
+  height: 48px;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.hotSale .details p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  width: 594px;
+  font-weight: 400;
+  line-height: 30px;
+  /* margin: 0 auto; */
+}
+.hotSale .details button {
+  /* padding: 20px 43px; */
+  margin-top: 10px;
+  border-radius: 8px;
+  background-color: #e55473;
+  border: none;
+  width: 155px;
+  height: 64px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+.hotSale .image img {
+  margin-left: 5%;
+}
+
+.hotSale .image {
+  width: 50%;
+  /* border: 1px solid black; */
+  /* padding: 10%; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
