@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.hero-section {
+  height: 850px;
+  background-color: rgba(229, 84, 115, 0.1);
+  /* padding: 60px 100px; */
+  display: flex;
+  background-image: url("../Flower Asset/pngwing 10.png");
+  background-repeat: no-repeat;
+  background-position: right 10% bottom;
+}
+.hero-description {
+  /* background-color: red; */
+  width: 708px;
+  height: 506px;
+  margin: 100px 70px;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.hero-description h1 {
+  width: 708px;
+  color: #272727;
+  font-size: 80px;
+  font-weight: 800;
+}
+.hero-description p {
+  width: 634px;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.hero-description button {
+  padding: 20px 43px;
+  border-radius: 8px;
+  background-color: #e55473;
+  width: 187px;
+  height: 64px;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
