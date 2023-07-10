@@ -30,7 +30,7 @@ body {
   width: 708px;
   color: #272727;
   font-size: 80px;
-  font-weight: 800;
+  font-weight: 700;
 }
 .hero-description p {
   width: 634px;
@@ -49,4 +49,86 @@ body {
   color: #fff;
   font-size: 20px;
   font-weight: 700;
+}
+
+.container {
+  width: 1440px;
+  margin: 100px auto;
+}
+
+.featured-headline {
+  /* background-color: yellow; */
+  text-align: center;
+}
+.featured-headline h2 {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+.featured-headline p {
+  color: rgba(39, 39, 39, 0.6);
+  width: 594px;
+  height: 60px;
+  margin: 20px auto 0px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.featured-section {
+  /* background-color: yellow; */
+  height: 605px;
+  /* background-image: url("../Flower Asset/pngwing 6.png"),
+    url("../Flower Asset/pngwing 5.png"), url("../Flower Asset/pngwing 7.png");
+  background-repeat: no-repeat;
+  background-position: left bottom, center bottom, right bottom; */
+}
+
+.featured-section .styled-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.featured-section .styled-div #one {
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  background-color: rgba(167, 33, 98, 0.15);
+  background-image: url("../Flower Asset/pngwing 6.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.featured-section .styled-div #two {
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  background-color: rgba(5, 151, 160, 0.15);
+  background-image: url("../Flower Asset/pngwing 5.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.featured-section .styled-div #three {
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  background-color: rgba(71, 125, 17, 0.15);
+  background-image: url("../Flower Asset/pngwing 7.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.featured-section .styled-div-link a {
+  /* display: inline-block; */
+  margin-top: 20px;
+  color: #272727;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
+}
+
+.featured-section .styled-div-link {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
