@@ -292,6 +292,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  border-radius: 8px;
 }
 
 ::placeholder {
@@ -310,6 +311,7 @@ body {
   height: 64px;
   margin-left: 20px;
   border: none;
+  border-radius: 8px;
   background-color: #e55473;
   color: #fff;
   font-family: Lato;
